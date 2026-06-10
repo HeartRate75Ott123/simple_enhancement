@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:feather" },
+    { "item": "simple_enhancement:basic_smithing_template" },
+    { "item": "minecraft:book" }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "simple_enhancement:swift_strike": 1
+        }
+      }
+    }
+  }
+}

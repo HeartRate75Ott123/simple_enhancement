@@ -1,0 +1,33 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Items.NETHERITE_UPGRADE"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.NETHERITE_INGOT"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.NETHERITE_INGOT"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.NETHERITE_UPGRADE"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:AdvancedSmithingTemplate"
+    },
+    "name": "advanced_smithing_template_recipe",
+    "namespace": "mod"
+  }
+}

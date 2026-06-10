@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.simple_enhancement.reach_strike"
+  },
+  "supported_items": "#minecraft:enchantable/sword",
+  "weight": 5,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "hand"
+  ],
+  "exclusive_set": "simple_enhancement:guard_strike"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "simple_enhancement:confusion_charge_item"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "simple_enhancement:enhanced_confusion_charge_item",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "simple_enhancement:netherite_diamond_alloy",
+    "count": 2
+  }
+}

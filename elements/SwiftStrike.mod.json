@@ -1,0 +1,26 @@
+{
+  "_fv": 85,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Swift Strike",
+    "supportedSlots": "hand",
+    "weight": 5,
+    "anvilCost": 2,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      {
+        "value": "CUSTOM:HeavyStrike"
+      }
+    ],
+    "supportedItems": [
+      {
+        "value": "TAG:minecraft:enchantable/sword"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false
+  }
+}

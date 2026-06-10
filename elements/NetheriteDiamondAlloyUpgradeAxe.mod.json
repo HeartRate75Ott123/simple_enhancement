@@ -1,0 +1,36 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:NetheriteDiamondAlloy"
+      },
+      {
+        "value": "CUSTOM:AdvancedSmithingTemplate"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.NETHERITE_AXE"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:NetheriteDiamondAlloy"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:AdvancedSmithingTemplate"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:NetheriteDiamondAxe"
+    },
+    "name": "netherite_diamond_alloy_upgrade_axe",
+    "namespace": "mod"
+  }
+}

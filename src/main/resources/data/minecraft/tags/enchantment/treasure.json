@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "simple_enhancement:wave_swift",
+    "simple_enhancement:weaken_strike",
+    "simple_enhancement:delay_slash",
+    "simple_enhancement:mob_friend",
+    "simple_enhancement:leap_teleport",
+    "simple_enhancement:guard_strike",
+    "simple_enhancement:sacrificial_slash",
+    "simple_enhancement:all_in_strike",
+    "simple_enhancement:life_absorb",
+    "simple_enhancement:hunger_slash"
+  ]
+}

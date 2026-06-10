@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "simple_enhancement:netherite_diamond_helmet",
+    "simple_enhancement:netherite_diamond_chestplate",
+    "simple_enhancement:netherite_diamond_leggings",
+    "simple_enhancement:netherite_diamond_boots"
+  ]
+}

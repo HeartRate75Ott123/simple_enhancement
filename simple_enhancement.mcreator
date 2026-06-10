@@ -1,0 +1,1224 @@
+{
+  "mod_elements": [
+    {
+      "name": "ReachStrike",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reach_strike",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/reach_strike.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "SwiftStrike",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swift_strike",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/swift_strike.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "HeavyStrike",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_strike",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/heavy_strike.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "GuardStrike",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guard_strike",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/guard_strike.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "WeakenStrike",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weaken_strike",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/weaken_strike.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "AllInStrike",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_in_strike",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/all_in_strike.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "LeapTeleport",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leap_teleport",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/leap_teleport.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "DelaySlash",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delay_slash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/delay_slash.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "SacrificialSlash",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacrificial_slash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/sacrificial_slash.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "HungerSlash",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunger_slash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/hunger_slash.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "WaveSwift",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wave_swift",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/wave_swift.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "LifeAbsorb",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_absorb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/life_absorb.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "MobFriend",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_friend",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/enchantment/mob_friend.json"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "WaveSwiftCore",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wave_swift_core",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/procedures/WaveSwiftCoreProcedure.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "ReachStrikeCore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reach_strike_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/ReachStrikeCore.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "SwiftStrikeCore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "swift_strike_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/SwiftStrikeCore.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "HeavyStrikeCore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "heavy_strike_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/HeavyStrikeCore.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "GuardStrikeCore",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "guard_strike_core",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/procedures/GuardStrikeCoreProcedure.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "WeakenStrikeCore",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "weaken_strike_core",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/procedures/WeakenStrikeCoreProcedure.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "AllInStrikeCore",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "all_in_strike_core",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/procedures/AllInStrikeCoreProcedure.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "LeapTeleportCore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "leap_teleport_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/LeapTeleportCore.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "SacrificialSlashCore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sacrificial_slash_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/SacrificialSlashCore.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "LifeAbsorbCore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "life_absorb_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/LifeAbsorbCore.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "HungerSlashCore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunger_slash_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/HungerSlashCore.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "DelaySlashCore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "delay_slash_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/DelaySlashCore.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "MobFriendCore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mob_friend_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/MobFriendCore.java"
+        ]
+      },
+      "path": "~/enchant"
+    },
+    {
+      "name": "SimpleEnhancement",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simple_enhancement",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VanillaArmorSetBonusHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vanilla_armor_set_bonus_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/VanillaArmorSetBonusHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteDiamondAlloy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_alloy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/simple_enhancement/models/item/netherite_diamond_alloy.json",
+          "src/main/java/net/mcreator/simpleenhancement/item/NetheriteDiamondAlloyItem.java"
+        ]
+      },
+      "path": "~/NetheriteDiamondAlloy"
+    },
+    {
+      "name": "NetheriteDiamond",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/item/NetheriteDiamondItem.java",
+          "src/main/resources/assets/simple_enhancement/models/item/netherite_diamond_helmet.json",
+          "src/main/resources/assets/simple_enhancement/models/item/netherite_diamond_boots.json",
+          "src/main/resources/assets/simple_enhancement/models/item/netherite_diamond_chestplate.json",
+          "src/main/resources/assets/simple_enhancement/models/item/netherite_diamond_leggings.json"
+        ]
+      },
+      "path": "~/NetheriteDiamondAlloy"
+    },
+    {
+      "name": "NetheriteDiamondSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/item/NetheriteDiamondSwordItem.java",
+          "src/main/resources/assets/simple_enhancement/models/item/netherite_diamond_sword.json"
+        ]
+      },
+      "path": "~/NetheriteDiamondAlloy"
+    },
+    {
+      "name": "NetheriteDiamondPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/simple_enhancement/models/item/netherite_diamond_pickaxe.json",
+          "src/main/java/net/mcreator/simpleenhancement/item/NetheriteDiamondPickaxeItem.java"
+        ]
+      },
+      "path": "~/NetheriteDiamondAlloy"
+    },
+    {
+      "name": "NetheriteDiamondAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/item/NetheriteDiamondAxeItem.java",
+          "src/main/resources/assets/simple_enhancement/models/item/netherite_diamond_axe.json"
+        ]
+      },
+      "path": "~/NetheriteDiamondAlloy"
+    },
+    {
+      "name": "NetheriteDiamondShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/item/NetheriteDiamondShovelItem.java",
+          "src/main/resources/assets/simple_enhancement/models/item/netherite_diamond_shovel.json"
+        ]
+      },
+      "path": "~/NetheriteDiamondAlloy"
+    },
+    {
+      "name": "NetheriteDiamondHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/item/NetheriteDiamondHoeItem.java",
+          "src/main/resources/assets/simple_enhancement/models/item/netherite_diamond_hoe.json"
+        ]
+      },
+      "path": "~/NetheriteDiamondAlloy"
+    },
+    {
+      "name": "CustomArmorSetBonusHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "custom_armor_set_bonus_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/CustomArmorSetBonusHandler.java"
+        ]
+      },
+      "path": "~/NetheriteDiamondAlloy"
+    },
+    {
+      "name": "UpgradeOrb",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "upgrade_orb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/item/UpgradeOrbItem.java",
+          "src/main/resources/assets/simple_enhancement/models/item/upgrade_orb.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "BasicSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/simple_enhancement/models/item/basic_smithing_template.json",
+          "src/main/java/net/mcreator/simpleenhancement/item/BasicSmithingTemplateItem.java"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "AdvancedSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/item/AdvancedSmithingTemplateItem.java",
+          "src/main/resources/assets/simple_enhancement/models/item/advanced_smithing_template.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "ConfusionChargeItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "confusion_charge_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/item/ConfusionChargeItemItem.java",
+          "src/main/resources/assets/simple_enhancement/models/item/confusion_charge_item.json"
+        ]
+      },
+      "path": "~/Projectile"
+    },
+    {
+      "name": "EnhancedConfusionChargeItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "enhanced_confusion_charge_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/simple_enhancement/models/item/enhanced_confusion_charge_item.json",
+          "src/main/java/net/mcreator/simpleenhancement/item/EnhancedConfusionChargeItemItem.java"
+        ]
+      },
+      "path": "~/Projectile"
+    },
+    {
+      "name": "ConfusionCharge",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "confusion_charge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/entity/ConfusionChargeEntity.java"
+        ]
+      },
+      "path": "~/Projectile"
+    },
+    {
+      "name": "EnhancedConfusionCharge",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "enhanced_confusion_charge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/entity/EnhancedConfusionChargeEntity.java"
+        ]
+      },
+      "path": "~/Projectile"
+    },
+    {
+      "name": "ConfusionChargeShoot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "confusion_charge_shoot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/procedures/ConfusionChargeShootProcedure.java"
+        ]
+      },
+      "path": "~/Projectile"
+    },
+    {
+      "name": "ConfusionChargeHit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confusion_charge_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/procedures/ConfusionChargeHitProcedure.java"
+        ]
+      },
+      "path": "~/Projectile"
+    },
+    {
+      "name": "EnhancedConfusionChargeShoot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "enhanced_confusion_charge_shoot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/procedures/EnhancedConfusionChargeShootProcedure.java"
+        ]
+      },
+      "path": "~/Projectile"
+    },
+    {
+      "name": "EnhancedConfusionChargeHit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_confusion_charge_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/procedures/EnhancedConfusionChargeHitProcedure.java"
+        ]
+      },
+      "path": "~/Projectile"
+    },
+    {
+      "name": "ReflectiveShield",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reflective_shield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/item/ReflectiveShieldItem.java",
+          "src/main/resources/assets/simple_enhancement/models/item/reflective_shield.json"
+        ]
+      }
+    },
+    {
+      "name": "ReflectiveShieldHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reflective_shield_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/ReflectiveShieldHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "BasicSmithingTemplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_smithing_template_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/recipe/basic_smithing_template_recipe.json",
+          "src/main/resources/data/simple_enhancement/advancement/recipes/basic_smithing_template_recipe.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "UpgradeHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "upgrade_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/UpgradeHandler.java"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "AnvilUpgradeHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "anvil_upgrade_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/AnvilUpgradeHandler.java"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "SwordTooltipHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sword_tooltip_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/SwordTooltipHandler.java"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "UpgradeAttackHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "upgrade_attack_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/UpgradeAttackHandler.java"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "SwordAttackSpeedHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sword_attack_speed_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/SwordAttackSpeedHandler.java"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "AdvancedSmithingTemplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_smithing_template_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/advancement/recipes/advanced_smithing_template_recipe.json",
+          "src/main/resources/data/simple_enhancement/recipe/advanced_smithing_template_recipe.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "NetheriteDiamondAlloyUpgradeBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_alloy_upgrade_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/advancement/recipes/netherite_diamond_alloy_upgrade_boots.json",
+          "src/main/resources/data/simple_enhancement/recipe/netherite_diamond_alloy_upgrade_boots.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "NetheriteDiamondAlloyUpgradeLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_alloy_upgrade_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/recipe/netherite_diamond_alloy_upgrade_leggings.json",
+          "src/main/resources/data/simple_enhancement/advancement/recipes/netherite_diamond_alloy_upgrade_leggings.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "NetheriteDiamondAlloyUpgradeChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_alloy_upgrade_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/advancement/recipes/netherite_diamond_alloy_upgrade_chestplate.json",
+          "src/main/resources/data/simple_enhancement/recipe/netherite_diamond_alloy_upgrade_chestplate.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "NetheriteDiamondAlloyUpgradeHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_alloy_upgrade_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/recipe/netherite_diamond_alloy_upgrade_helmet.json",
+          "src/main/resources/data/simple_enhancement/advancement/recipes/netherite_diamond_alloy_upgrade_helmet.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "NetheriteDiamondAlloyUpgradeShovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_alloy_upgrade_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/advancement/recipes/netherite_diamond_alloy_upgrade_shovel.json",
+          "src/main/resources/data/simple_enhancement/recipe/netherite_diamond_alloy_upgrade_shovel.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "NetheriteDiamondAlloyUpgradeHoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_alloy_upgrade_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/advancement/recipes/netherite_diamond_alloy_upgrade_hoe.json",
+          "src/main/resources/data/simple_enhancement/recipe/netherite_diamond_alloy_upgrade_hoe.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "NetheriteDiamondAlloyUpgradePickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_alloy_upgrade_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/advancement/recipes/netherite_diamond_alloy_upgrade_pickaxe.json",
+          "src/main/resources/data/simple_enhancement/recipe/netherite_diamond_alloy_upgrade_pickaxe.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "NetheriteDiamondAlloyUpgradeAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_alloy_upgrade_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/advancement/recipes/netherite_diamond_alloy_upgrade_axe.json",
+          "src/main/resources/data/simple_enhancement/recipe/netherite_diamond_alloy_upgrade_axe.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "NetheriteDiamondAlloyUpgradeSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_alloy_upgrade_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/advancement/recipes/netherite_diamond_alloy_upgrade_sword.json",
+          "src/main/resources/data/simple_enhancement/recipe/netherite_diamond_alloy_upgrade_sword.json"
+        ]
+      },
+      "path": "~/Upgrade"
+    },
+    {
+      "name": "NetheriteDiamondAlloyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_diamond_alloy_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/advancement/recipes/netherite_diamond_alloy_recipe.json",
+          "src/main/resources/data/simple_enhancement/recipe/netherite_diamond_alloy_recipe.json"
+        ]
+      },
+      "path": "~/NetheriteDiamondAlloy"
+    },
+    {
+      "name": "EnhancedConfusionChargeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_confusion_charge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/recipe/enhanced_confusion_charge_recipe.json"
+        ]
+      },
+      "path": "~/Projectile"
+    },
+    {
+      "name": "ConfusionChargeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confusion_charge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/simple_enhancement/recipe/confusion_charge_recipe.json"
+        ]
+      },
+      "path": "~/Projectile"
+    },
+    {
+      "name": "Mutagen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mutagen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/item/MutagenItem.java",
+          "src/main/resources/assets/simple_enhancement/models/item/mutagen.json"
+        ]
+      }
+    },
+    {
+      "name": "LootConfig",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "loot_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/LootConfig.java"
+        ]
+      }
+    },
+    {
+      "name": "SimpleEnhancementModifiers",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "simple_enhancement_modifiers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/SimpleEnhancementModifiers.java"
+        ]
+      }
+    },
+    {
+      "name": "ModVillagerTrades",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mod_villager_trades",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/simpleenhancement/ModVillagerTrades.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:GuardStrike",
+      "~CUSTOM:WeakenStrike",
+      "~CUSTOM:AllInStrike",
+      "~CUSTOM:LeapTeleport",
+      "~CUSTOM:MobFriend",
+      "~CUSTOM:LifeAbsorb",
+      "~CUSTOM:WaveSwift",
+      "~CUSTOM:HungerSlash",
+      "~CUSTOM:SacrificialSlash",
+      "~CUSTOM:DelaySlash"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:NetheriteDiamond.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:NetheriteDiamond.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:NetheriteDiamond.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:NetheriteDiamond.boots"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:NetheriteDiamondSword"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:NetheriteDiamondPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:NetheriteDiamondAxe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:NetheriteDiamondShovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:NetheriteDiamondHoe"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:ReflectiveShield"
+    ],
+    "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:HeavyStrike",
+      "~CUSTOM:SwiftStrike",
+      "~CUSTOM:ReachStrike"
+    ],
+    "ITEMS:simple_enhancement:tools": [
+      "CUSTOM:NetheriteDiamondSword",
+      "CUSTOM:NetheriteDiamondPickaxe",
+      "CUSTOM:NetheriteDiamondAxe",
+      "CUSTOM:NetheriteDiamondShovel",
+      "CUSTOM:NetheriteDiamondHoe"
+    ],
+    "ITEMS:simple_enhancement:armors": [
+      "CUSTOM:NetheriteDiamond.helmet",
+      "CUSTOM:NetheriteDiamond.body",
+      "CUSTOM:NetheriteDiamond.legs",
+      "CUSTOM:NetheriteDiamond.boots"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "enchantment.simple_enhancement.reach_strike": "Reach Strike",
+      "enchantment.simple_enhancement.swift_strike": "Swift Strike",
+      "enchantment.simple_enhancement.heavy_strike": "Heavy Strike",
+      "enchantment.simple_enhancement.guard_strike": "Guard Strike",
+      "enchantment.simple_enhancement.weaken_strike": "Weaken Strike",
+      "enchantment.simple_enhancement.all_in_strike": "All In Strike",
+      "enchantment.simple_enhancement.leap_teleport": "Leap Teleport",
+      "enchantment.simple_enhancement.delay_slash": "Delay Slash",
+      "enchantment.simple_enhancement.sacrificial_slash": "Sacrificial Slash",
+      "enchantment.simple_enhancement.hunger_slash": "Hunger Slash",
+      "enchantment.simple_enhancement.wave_swift": "Wave Swift",
+      "enchantment.simple_enhancement.life_absorb": "Life Absorb",
+      "enchantment.simple_enhancement.mob_friend": "Mob Friend",
+      "item_group.simple_enhancement.simple_enhancement": "Simple Enhancement",
+      "item.simple_enhancement.netherite_diamond_alloy": "Netherite Diamond Alloy",
+      "item.simple_enhancement.netherite_diamond_boots": "Netherite Diamond Boots",
+      "item.simple_enhancement.netherite_diamond_leggings": "Netherite Diamond Leggings",
+      "item.simple_enhancement.netherite_diamond_chestplate": "Netherite Diamond Chestplate",
+      "item.simple_enhancement.netherite_diamond_helmet": "Netherite Diamond Helmet",
+      "item.simple_enhancement.netherite_diamond_sword": "Netherite Diamond Sword",
+      "item.simple_enhancement.netherite_diamond_pickaxe": "Netherite Diamond Pickaxe",
+      "item.simple_enhancement.netherite_diamond_axe": "Netherite Diamond Axe",
+      "item.simple_enhancement.netherite_diamond_shovel": "Netherite Diamond Shovel",
+      "item.simple_enhancement.netherite_diamond_hoe": "Netherite Diamond Hoe",
+      "item.simple_enhancement.upgrade_orb": "Upgrade Orb",
+      "item.simple_enhancement.basic_smithing_template": "Basic Smithing Template",
+      "item.simple_enhancement.advanced_smithing_template": "Advanced Smithing Template",
+      "item.simple_enhancement.confusion_charge_item": "Confusion Charge",
+      "item.simple_enhancement.enhanced_confusion_charge_item": "Enhanced Confusion Charge",
+      "item.simple_enhancement.reflective_shield": "Reflective Shield",
+      "tooltip.simple_enhancement.sword_level": "Upgrade Level: %d",
+      "item.simple_enhancement.mutagen": "Mutagen",
+      "message.simpleenhancement.mutation_ended": "§cMutation effect has ended",
+      "message.simple_enhancement.orb_max_level": "Already reach the max level !!"
+    },
+    "zh_cn": {
+      "enchantment.simple_enhancement.reach_strike": "阔击",
+      "enchantment.simple_enhancement.swift_strike": "迅击",
+      "enchantment.simple_enhancement.heavy_strike": "重击",
+      "enchantment.simple_enhancement.guard_strike": "御击",
+      "enchantment.simple_enhancement.weaken_strike": "衰击",
+      "enchantment.simple_enhancement.all_in_strike": "全力挥砍",
+      "enchantment.simple_enhancement.leap_teleport": "末影脉冲",
+      "enchantment.simple_enhancement.delay_slash": "滞斩",
+      "enchantment.simple_enhancement.sacrificial_slash": "殉斩",
+      "enchantment.simple_enhancement.hunger_slash": "充饥",
+      "enchantment.simple_enhancement.wave_swift": "水中剑",
+      "enchantment.simple_enhancement.life_absorb": "生命窃取",
+      "enchantment.simple_enhancement.mob_friend": "怪物之友",
+      "item_group.simple_enhancement.simple_enhancement": "战斗增强",
+      "item.simple_enhancement.netherite_diamond_alloy": "强化下界合金",
+      "item.simple_enhancement.netherite_diamond_boots": "强化下界合金靴子",
+      "item.simple_enhancement.netherite_diamond_leggings": "强化下界合金护腿",
+      "item.simple_enhancement.netherite_diamond_chestplate": "强化下界合金胸甲",
+      "item.simple_enhancement.netherite_diamond_helmet": "强化下界合金头盔",
+      "item.simple_enhancement.netherite_diamond_sword": "强化下界合金剑",
+      "item.simple_enhancement.netherite_diamond_pickaxe": "强化下界合金镐",
+      "item.simple_enhancement.netherite_diamond_axe": "强化下界合金斧",
+      "item.simple_enhancement.netherite_diamond_shovel": "强化下界合金铲",
+      "item.simple_enhancement.netherite_diamond_hoe": "强化下界合金锄",
+      "item.simple_enhancement.upgrade_orb": "升级宝珠",
+      "item.simple_enhancement.basic_smithing_template": "基础模具",
+      "item.simple_enhancement.advanced_smithing_template": "高级模具",
+      "item.simple_enhancement.confusion_charge_item": "迷惑弹",
+      "item.simple_enhancement.enhanced_confusion_charge_item": "强化迷惑弹",
+      "item.simple_enhancement.reflective_shield": "弹反盾",
+      "tooltip.simple_enhancement.sword_level": "升级等级：%d",
+      "item.simple_enhancement.mutagen": "突变药剂",
+      "message.simpleenhancement.mutation_ended": "§c突变效果已结束",
+      "message.simple_enhancement.orb_max_level": "已达到最大等级！"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/simpleenhancement/init/SimpleEnhancementModItems.java",
+      "src/main/java/net/mcreator/simpleenhancement/init/SimpleEnhancementModEntities.java",
+      "src/main/java/net/mcreator/simpleenhancement/init/SimpleEnhancementModEntityRenderers.java",
+      "src/main/java/net/mcreator/simpleenhancement/SimpleEnhancementMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/simpleenhancement/init/SimpleEnhancementModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "enchant",
+        "children": []
+      },
+      {
+        "name": "NetheriteDiamondAlloy",
+        "children": []
+      },
+      {
+        "name": "Upgrade",
+        "children": []
+      },
+      {
+        "name": "Projectile",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "simple_enhancement",
+    "modName": "Simple Enhancement",
+    "version": "1.0.0",
+    "description": "This mod adds a variety of engaging combat systems, new biomes, unique materials, gear and weapons. It stays true to the original game style, is lightweight and full of fun. Start your adventure now!",
+    "author": "PlumeJade",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.simpleenhancement"
+  },
+  "mcreatorVersion": 202600114619
+}

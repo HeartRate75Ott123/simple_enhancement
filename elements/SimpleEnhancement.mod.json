@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "Simple Enhancement",
+    "icon": {
+      "value": "Blocks.COPPER_BLOCK"
+    },
+    "showSearch": false
+  }
+}

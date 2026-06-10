@@ -1,0 +1,11 @@
+{
+  "type": "simple_enhancement:orb_upgrade",
+  "ingredients": [
+    { "item": "simple_enhancement:upgrade_orb" },
+    { "item": "minecraft:diamond_block" }
+  ],
+  "result": {
+    "id": "simple_enhancement:upgrade_orb",
+    "count": 1
+  }
+}

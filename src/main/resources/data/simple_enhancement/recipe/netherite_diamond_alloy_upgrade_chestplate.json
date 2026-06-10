@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "simple_enhancement:advanced_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "simple_enhancement:netherite_diamond_alloy"
+  },
+  "result": {
+    "id": "simple_enhancement:netherite_diamond_chestplate"
+  }
+}

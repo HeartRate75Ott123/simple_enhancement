@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "simple_enhancement:item/netherite_diamond_alloy_axe"
+  }
+}

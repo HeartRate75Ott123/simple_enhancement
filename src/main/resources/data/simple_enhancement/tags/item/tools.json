@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "simple_enhancement:netherite_diamond_axe",
+    "simple_enhancement:netherite_diamond_hoe",
+    "simple_enhancement:netherite_diamond_sword",
+    "simple_enhancement:netherite_diamond_pickaxe",
+    "simple_enhancement:netherite_diamond_shovel"
+  ]
+}

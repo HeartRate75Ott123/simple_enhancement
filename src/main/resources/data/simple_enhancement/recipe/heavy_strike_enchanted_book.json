@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:blaze_powder" },
+    { "item": "simple_enhancement:advanced_smithing_template" },
+    { "item": "minecraft:book" }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "simple_enhancement:heavy_strike": 1
+        }
+      }
+    }
+  }
+}
