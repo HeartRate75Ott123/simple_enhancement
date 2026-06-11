@@ -3,10 +3,10 @@ loaderVersion="[4,)"
 license="MIT"
 
 [[mods]]
-modId="simple_enhancement"
-version="1.0.0"
+modId="${mod_id}"
+version="${mod_version}"
 displayName="Simple Enhancement"
-displayURL="https://mcreator.net"
+displayURL="https://modrinth.com/mod/simple-enhancement"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="PlumeJade"
 description="This mod adds a variety of engaging combat systems, new biomes, unique materials, gear and weapons. It stays true to the original game style, is lightweight and full of fun. Start your adventure now!"

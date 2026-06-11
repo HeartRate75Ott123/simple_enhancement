@@ -26,7 +26,7 @@ import java.util.List;
  * 创造模式选项卡处理器
  * - 将所有13个模组附魔的附魔书添加到 simple_enhancement 创造模式选项卡
  * - 将升级宝珠 LV2-LV6 添加到模组选项卡（LV1 已由 MCreator 生成代码添加）
- * - 从原版选项卡（如材料选项卡）中移除本模组的附魔书
+ * - 从原版材料选项卡中移除本模组的附魔书（parent + search 条目都要清理）
  */
 @EventBusSubscriber(modid = SimpleEnhancementMod.MODID)
 public class EnchantmentCreativeTabHandler {
@@ -49,18 +49,54 @@ public class EnchantmentCreativeTabHandler {
 
     @SubscribeEvent
     public static void onBuildCreativeModeTabContents(BuildCreativeModeTabContentsEvent event) {
-        ResourceKey<?> tabKey = event.getTabKey();
-        String namespace = tabKey.location().getNamespace();
-
-        if (tabKey.equals(SimpleEnhancementModTabs.SIMPLE_ENHANCEMENT.getKey())) {
+        if (event.getTabKey().equals(SimpleEnhancementModTabs.SIMPLE_ENHANCEMENT.getKey())) {
             // 在模组选项卡中：添加所有附魔书
             addEnchantmentBooks(event);
             // 在模组选项卡中：添加升级宝珠 LV2-LV6（LV1 已由显示物品生成器添加）
             addUpgradeOrbs(event);
-        } else if (namespace.equals("minecraft")) {
-            // 在原版选项卡中（如材料选项卡）：移除本模组的附魔书
+        } else if (event.getTabKey().location().getNamespace().equals("minecraft")) {
+            // 从原版选项卡（材料等）中清理本模组的附魔书
+            // 同时清理 parent 和 search 条目，彻底清除残留分类标签
             removeModEnchantmentBooks(event);
         }
+    }
+
+    /**
+     * 从原版选项卡的 parent 和 search 条目中移除本模组的附魔书。
+     * 这样搜索结果中也不会显示"原材料"分类标签。
+     */
+    private static void removeModEnchantmentBooks(BuildCreativeModeTabContentsEvent event) {
+        List<ItemStack> toRemoveParent = new ArrayList<>();
+        List<ItemStack> toRemoveSearch = new ArrayList<>();
+
+        for (ItemStack stack : event.getParentEntries()) {
+            if (isModEnchantmentBook(stack)) toRemoveParent.add(stack);
+        }
+        for (ItemStack stack : event.getSearchEntries()) {
+            if (isModEnchantmentBook(stack)) toRemoveSearch.add(stack);
+        }
+
+        for (ItemStack stack : toRemoveParent) {
+            event.remove(stack, CreativeModeTab.TabVisibility.PARENT_TAB_ONLY);
+        }
+        for (ItemStack stack : toRemoveSearch) {
+            event.remove(stack, CreativeModeTab.TabVisibility.SEARCH_TAB_ONLY);
+        }
+    }
+
+    private static boolean isModEnchantmentBook(ItemStack stack) {
+        if (stack.getItem() != Items.ENCHANTED_BOOK) return false;
+        ItemEnchantments enchantments = stack.get(DataComponents.STORED_ENCHANTMENTS);
+        if (enchantments == null || enchantments.isEmpty()) return false;
+        for (var entry : enchantments.entrySet()) {
+            if (entry.getKey().unwrapKey()
+                    .map(key -> key.location().getNamespace()
+                        .equals(SimpleEnhancementMod.MODID))
+                    .orElse(false)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     /**
@@ -116,42 +152,6 @@ public class EnchantmentCreativeTabHandler {
                     "附魔 {} 未在注册表中找到，无法添加到创造模式选项卡", id);
             }
         }
-    }
-
-    /**
-     * 从原版选项卡的父选项卡条目中移除所有本模组的附魔书
-     * （搜索选项卡不受影响，因为其使用 SEARCH_TAB_ONLY 可见性）
-     */
-    private static void removeModEnchantmentBooks(BuildCreativeModeTabContentsEvent event) {
-        List<ItemStack> toRemove = new ArrayList<>();
-        for (ItemStack stack : event.getParentEntries()) {
-            if (isModEnchantmentBook(stack)) {
-                toRemove.add(stack);
-            }
-        }
-        for (ItemStack stack : toRemove) {
-            event.remove(stack, CreativeModeTab.TabVisibility.PARENT_TAB_ONLY);
-        }
-    }
-
-    /**
-     * 检查物品栈是否为本模组的附魔书
-     */
-    private static boolean isModEnchantmentBook(ItemStack stack) {
-        if (stack.getItem() != Items.ENCHANTED_BOOK) return false;
-
-        ItemEnchantments enchantments = stack.get(DataComponents.STORED_ENCHANTMENTS);
-        if (enchantments == null || enchantments.isEmpty()) return false;
-
-        for (var entry : enchantments.entrySet()) {
-            Holder<Enchantment> holder = entry.getKey();
-            if (holder.unwrapKey()
-                    .map(key -> key.location().getNamespace().equals(SimpleEnhancementMod.MODID))
-                    .orElse(false)) {
-                return true;
-            }
-        }
-        return false;
     }
 
     private record EnchantmentInfo(String id, int maxLevel) {}
